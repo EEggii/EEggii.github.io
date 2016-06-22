@@ -9,7 +9,7 @@
 
 body{
     line-height: 1.6em;
-    font-family: Arial,sans-serif;
+    font-family: 'Noto Sans Korean', sans-serif;
     color: #444;
     padding-top: 20px
 }
@@ -35,11 +35,9 @@ nav a{
   font-size: 90%;
 }
 header{
-    font-family: 'Libre Baskerville', Georgia;
+    font-family: 'Noto Sans Korean', sans-serif;
     margin: 10px 0;
     padding: 20px;
-    border-bottom: 1px solid #F4F6F7;
-    text-align: center;
 }
 header h1{
     line-height: 1.2em;

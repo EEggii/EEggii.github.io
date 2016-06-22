@@ -1,6 +1,6 @@
 excerpt_separator: ""
-pygments: true
+rouge: true
 markdown: kramdown
 url: http://EEggii.github.io
 title: __Easter Egg
-paginate: 7
+paginate: 10
