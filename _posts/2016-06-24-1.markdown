@@ -19,7 +19,7 @@ layout: post
   
   
 ![간단한 웹 서비스 구조도](https://cloud.githubusercontent.com/assets/6007758/16329009/93032b34-3a1a-11e6-9252-3a0fb9819de7.png)
-사용자가 직접 접속하여 HTML/CSS 요소들을 제공하는 Static 인스턴스가 있다. 사용자가 이 Static 서버에 접속하고 로그인과 같은 요청을 시도하면 해당 요청은 Load Balancer 통해 분산된다. 그렇게 분산된요청들을 처리하기 위한 Restful하게 설계된 인스턴스(PHP로 구현)가 있다. 그리고 데이터베이스로는 Google SQL 인스턴스가 있고 노티피케이션 처리를 위한 node.js로 구현된 서버가 돌아가는 인스턴스와 업로드와 이미지가 저장되는 Cloud Storage가 있다. 
+사용자가 직접 접속하여 HTML/CSS 요소들을 제공하는 Static 인스턴스가 있다. 사용자가 이 Static 서버에 접속하고 로그인과 같은 요청을 시도하면 해당 요청은 Load Balancer 통해 분산된다. 그렇게 분산된 요청들을 처리하기 위한 Restful하게 설계된 인스턴스(PHP로 구현)가 있다. 그리고 데이터베이스로는 Google SQL 인스턴스가 있고 노티피케이션 처리를 위한 node.js로 구현된 서버가 돌아가는 인스턴스와 업로드된 파일이나 이미지가 저장되는 Cloud Storage가 있다. 
   
   
 ## Compute Engine - Practice
