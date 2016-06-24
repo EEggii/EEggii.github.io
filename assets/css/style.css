@@ -55,7 +55,10 @@ article{
     font-size: 90%;
 }
 article p{
-    padding: 10px
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
 }
 article a{
     color: #407FBF;
