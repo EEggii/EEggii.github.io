@@ -49,3 +49,24 @@
     </div>
 </body>
 </html>
+
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+    var $window = $(window),
+    $image = $('.upper-image');
+    
+    $window.on('scroll', function() {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+          .css('opacity', 1-Math.max(top/700, 0));
+    });
+    $window.trigger('scroll');
+  });
+}(jQuery));
+</script>
