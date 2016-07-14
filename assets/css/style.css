@@ -146,6 +146,25 @@ article > ul, article > ol, .post-list ul, .post-list ol{
   clear: both;
 }
 
+.upper {
+  height: 450px;
+  position: relative;
+  background-color: black;
+  overflow: hidden;
+}
+
+.upper .upper-image {
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    text-indent: -9999px;
+    background-position: center center;
+}
+
 
 footer{
     font-size: 90%;
