@@ -10,6 +10,7 @@
     <link rel="alternate" type="application/atom+xml" title="Feed for blog posts" href="/feed.xml">
 </head>
 <body>
+<!-- FB init -->
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -18,7 +19,6 @@
       version    : 'v2.7'
     });
   };
-
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}
@@ -28,6 +28,7 @@
    }(document, 'script', 'facebook-jssdk'));
 </script>
 
+<!-- FB comment plugin init -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -71,7 +72,7 @@
         data-width="600"
         data-show-faces="true">
     </div>
-    
+    {{site.baseurl}}
     <div class="fb-comments" data-href="{{http://blog.eegg.io + page.url}}" data-numposts="5" data-width="600"></div>
 
     <footer>
